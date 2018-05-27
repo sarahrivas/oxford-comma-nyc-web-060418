@@ -3,7 +3,7 @@ def oxford_comma(array)
   array.each_index do |i|
     if array.length > 1 && i == array.length - 1 
       converted_string << "and #{array[i]}"
-    if array.length == 1 
+    elsif array.length == 1 
       converted_string << #{array[i]}
     else  
     converted_string << "#{array[i]}, "
