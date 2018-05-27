@@ -6,6 +6,6 @@ def oxford_comma(array)
     else  
     converted_string << "#{array[i]}, "
     end
+    converted_string
   end
-  converted_string
-end
+  
