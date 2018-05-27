@@ -4,7 +4,7 @@ def oxford_comma(array)
     if array.length == 1
       converted_string << "#{array[i]}"
     elsif array.length == 2 
-      if array.length - 1
+      if i == array.length - 1
         converted_string << "and #{array[i]}"
       else 
         converted_string << "#{array[i]} "
